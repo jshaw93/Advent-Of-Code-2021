@@ -11,10 +11,8 @@ for i in directions:
         pos[0] += spaces
         pos[1] += pos[2] * spaces
     elif direction == 'down':
-        # pos[1] += spaces
         pos[2] += spaces
     elif direction == 'up':
-        # pos[1] -= spaces
         pos[2] -= spaces
 
 print(pos)
